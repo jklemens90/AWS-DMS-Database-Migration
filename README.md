@@ -4,7 +4,7 @@ Private Connectivty was established using VPC Peering, which simulated a Direct 
 
 It involved migrating word press content in the html folder from on-premises to the EC2 web server. I provisioned a replication instance and endpoints so the DB servers can communicate. I utilized DMS to transfer the data from the on-premises mariaDB database to an RDS instance. 
 
-The end state architecture looked like this:
+The architecture looked like this:
 
 ![image](https://user-images.githubusercontent.com/95970840/221116726-81cf25dc-b48e-4711-a145-57b74109980f.png)
 
